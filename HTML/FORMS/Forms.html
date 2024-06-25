@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h3>Registration Form</h3>
+    <form action="">
+      <!-- FNAME -->
+      <label for="fnname">First Name:</label>
+      <br />
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="enter first Name"
+        autofocus
+      />
+      <br />
+      <!-- LNAME -->
+      <label for="lname">Last Name:</label>
+      <br />
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        placeholder="enter last Name"
+      />
+      <br />
+      <!-- E-MAIL -->
+      <label for="email">E-mail:</label>
+      <br />
+      <input type="email" id="email" name="email" placeholder="enter e-mail" />
+      <br />
+      <!-- PASSWORD -->
+      <label for="password">Password:</label>
+      <br />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter password"
+        pattern="[0-9]{3,10}"
+      />
+      <br />
+      <!-- MOBILE -->
+      <label for="mobilenumber">Mobile Number:</label>
+      <br />
+      <input
+        type="tel"
+        name="mobilenumber"
+        id="mobilenumber"
+        placeholder="enter mobile number"
+        pattern="[0-9]{10}"
+      />
+      <br />
+      <!-- DOB -->
+      <label for="dob">Date of Birth</label>
+      <br />
+      <input type="date" name="dob" id="dob" />
+      <br />
+      <!-- GENDER -->
+      <label for="gender">Gender:</label>
+      <br />
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="femal" value="female" />
+      <label for="female">Female</label>
+      <br />
+      <!-- DEGREE -->
+      <label for="grad">Graduation:</label>
+      <input type="radio" name="graduation" value="btech" />
+      <label for="grad">B.Tech</label>
+      <input type="radio" name="graduation" value="ba" />
+      <label for="grad">B.A</label>
+      <input type="radio" name="graduation" value="bcom" />
+      <label for="grad">B.com</label>
+      <input type="radio" name="graduation" value="others" />
+      <label for="grad">Others</label>
+      <br />
+      <!-- CS -->
+      <label for="range">Rate your Communication Skills:</label>
+      <input type="range" name="range" id="range" min="1" max="100" value="0" />
+      <br />
+      <br />
+      <!-- YOP -->
+      <label for="yop">Year Of Passout:</label>
+      <select name="yop" id="year">
+        <option value="2021">2021</option>
+        <option value="2021">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+      </select>
+      <br />
+      <br />
+      <!-- FILE -->
+      <input type="file" name="file" id="file" />
+      <br />
+      <br />
+      <!-- SKILL -->
+      <label for="skills">Skills:</label>
+      <select name="Fullastack" id="skills">
+        <optgroup label="Front-end">
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="javascript">JavaScript</option>
+          <option value="recat">ReactJS</option>
+        </optgroup>
+        <optgroup label="Back-end">
+          <option value="java">Java</option>
+          <option value="python">Python</option>
+          <option value="php">PHP</option>
+        </optgroup>
+      </select>
+      <br />
+      <!-- MOI -->
+      <label for="interview">Mode of Interview:</label>
+
+      <input type="checkbox" name="interview" id="online" value="online" />
+      <label for="online">Online</label>
+      <input type="checkbox" name="interview" id="offline" value="offline" />
+      <label for="offline">Offline</label>
+      <br />
+      <br />
+      <!-- SUBMIT -->
+      <input type="submit" />
+    </form>
+  </body>
+</html>

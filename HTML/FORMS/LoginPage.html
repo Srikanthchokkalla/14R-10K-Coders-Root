@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../../CSS/Login.css">
+  </head>
+  <body>
+    <fieldset>
+      <legend><b>Login Form:</b></legend>
+      <form action="">
+        <div>
+          <label for="uname_or_email">Username or Email:</label>
+          <input type="email" name="uname" id="uname_or_email" autofocus/>
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            pattern="[0-9]{3,10}"
+          />
+        </div>
+        <div>
+          <p>
+            <input
+              type="submit"
+              value="Login"
+              formaction="./LoginSuccess.html"
+            />
+            <input type="reset" />
+             <a href="./ChangePassword.html">Change Password</a>
+          </p>
+        </div>
+        <div>
+          <p>
+            I don't have an Account ? <a href="./SignUpPage.html">Sign Up</a>
+          </p>
+          <p></p>
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>

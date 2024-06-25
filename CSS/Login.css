@@ -1,0 +1,7 @@
+body {
+    background-color: aqua;
+  }
+  div,legend {
+    text-align: center;
+    margin-bottom: 10px;
+  }
