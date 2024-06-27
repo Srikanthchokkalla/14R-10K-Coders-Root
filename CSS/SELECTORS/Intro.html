@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro</title>
+    <style>
+      /* 2.Internal CSS */
+      h1 {
+        /* tag name selector */
+        color: antiquewhite;
+        background-color: brown;
+        width: 200px;
+      }
+      .para {
+        /* class name selector(it starts with " . " */
+        color: black;
+        background-color: aqua;
+      }
+      #para {
+        /* id name selector(it starts with " # ")*/
+        color: yellow;
+        background-color: black;
+      }
+      /* when apply css to multiple tags,class & id with same styles we use as Group selectors like h1,h2{} */
+      /* we want to apply some common styles to entire html document we call it as Universal selectors it denots *{} */
+    </style>
+    <!-- When we provide link tag in head element we call it as 3.External CSS -->
+  </head>
+  <body>
+    <!-- 1.In-line CSS -->
+    <h1 style="color: aqua; background-color: blue; width: 200px">Hello CSS</h1>
+    <p class="para">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est quo nulla,
+      consequatur mollitia quas officiis
+      <span style="color: red">Srikanth</span> repudiandae eius dolore, itaque
+      aspernatur maiores molestias iure illum quaerat similique, voluptatum
+      excepturi placeat.
+    </p>
+    <p id="para">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum magni
+      blanditiis commodi sapiente, nemo quisquam nostrum quod incidunt. Ex
+      temporibus voluptas officia aperiam libero itaque quisquam, veritatis
+      magnam voluptates reiciendis!
+    </p>
+  </body>
+</html>

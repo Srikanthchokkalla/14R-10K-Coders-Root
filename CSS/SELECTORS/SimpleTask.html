@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table with Different Background-Colors</title>
+    <!-- Internal CSS -->
+    <style>
+        /* Universal Selector */
+      * {
+        font-style: oblique;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      /* Tag name Selector */
+      h3{
+        color: darkred;
+      }
+      /* Group Selector */
+      table,
+      tr,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 1000px;
+        height: 100px;
+      }
+    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./SimpleTask.css" />
+  </head>
+  <body>
+    <h3>Table with Different Background-Colors using Simple Selectors</h3>
+    <table>
+      <tr>
+        <!-- In-Line CSS -->
+        <td style="background-color: orange">Rohit Sharma</td>
+        <td style="background-color: blue">Virat Kohli</td>
+        <td style="background-color: green">Hardik Pandya</td>
+        <td style="background-color: blueviolet">Surya Kumar</td>
+        <td style="background-color: yellow">Ravidra Jadeja</td>
+      </tr>
+      <tr>
+        <td class="t21">Pat Cummins</td>
+        <td class="t22">David Warner</td>
+        <td class="t23">Travis Head</td>
+        <td class="t24">Glen Maxwell</td>
+        <td class="t25">Mitchel Starc</td>
+      </tr>
+      <tr>
+        <td id="t31">Jos Buttler</td>
+        <td id="t32">Jhonny Bairstrow</td>
+        <td id="t33">Liam Livingston</td>
+        <td id="t34">Harry Brook</td>
+        <td id="t35">Josep Archer</td>
+      </tr>
+      <tr>
+        <td class="t41">Quinten Decock</td>
+        <td class="t42">Henrich Classen</td>
+        <td class="t43">Aiden Markram</td>
+        <td class="t44">David Miller</td>
+        <td class="t45">Kagiso Rabada</td>
+      </tr>
+      <tr>
+        <td id="t51">Kane Williamson</td>
+        <td id="t52">Rachin Ravindra</td>
+        <td id="t53">Mitchel Santner</td>
+        <td id="t54">Glenn Phillips</td>
+        <td id="t55">Trent Boult</td>
+      </tr>
+    </table>
+  </body>
+</html>
